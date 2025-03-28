@@ -6,7 +6,7 @@ on:
       - main
   workflow_dispatch:
   schedule:
-    - cron: '50 11 * * *'  # Todos los días a las 11:00 UTC
+    - cron: '30 12 * * *'  # Todos los días a las 11:00 UTC
 
 jobs:
   run-script:
